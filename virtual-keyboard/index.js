@@ -1,5 +1,5 @@
 // DOM Elements
-let displayTextarea = document.getElementById('display'); // Changed variable name to displayTextarea
+let displayTextarea = document.getElementById('display'); 
 let keys = document.querySelectorAll('.key');
 let specialKeys = document.querySelectorAll('.special-buttons');
 let powerButton = document.getElementById('power-button');
