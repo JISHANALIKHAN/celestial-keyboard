@@ -13,6 +13,7 @@ Explore CelestialKeys in action at [this link](https://celestialkeyboard.netlify
 ![Screenshot 1](celestial-keyboard/images/Screenshot-1.png)
 ![Screenshot 2](celestial-keyboard/images/Screenshot-2.png)
 ![Screenshot 3](celestial-keyboard/images/Screenshot-3.png)
+![Screenshot 4](celestial-keyboard/images/Screenshot-4.png)
 :-------------------------:|:-------------------------:|:-------------------------:
 1. Click on the keys to input characters.
 2. Explore special keys and functionalities.
