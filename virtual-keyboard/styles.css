@@ -20,14 +20,14 @@ body {
 }
 
 #display {
-    height: 200px; /* Set an appropriate height for the textarea */
-    width: 100%; /* Set the width as needed */
-    font-size: 1.5rem; /* Adjust font size as needed */
+    height: 200px; 
+    width: 100%; 
+    font-size: 1.5rem; 
     text-align: left;
     border: none;
     color: white;
-    background-color: hsl(0, 0%, 20%); /* Add background color if desired */
-    resize: none; /* Disable resizing if you don't want it */
+    background-color: hsl(0, 0%, 20%); 
+    resize: none; 
     overflow-y: auto; 
     border-radius: 10px;
 }
