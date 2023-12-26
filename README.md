@@ -29,9 +29,10 @@ This project was inspired by a tutorial for a calculator app, and it incorporate
 
 This project uses certain sounds and images that are not owned by the creator. Credits for these assets go to their respective authors and creators. Below is a list of the external assets used in this project:
 
-- **Keyboard Sound Effect:** by SennaFoxy(site:https://pixabay.com/sound-effects/search/keyboard/)
-- **Power Button Sound Effect:** by MGRomy(site:https://www.zedge.net/ringtone/9eabc9a2-e90f-3377-8ed0-13f160a12076)
-- **Power Button Image:** by renata(site:https://pixabay.com/sound-effects/search/keyboard/)
+- **Keyboard Sound Effect:** Provided by SennaFoxy (source: [Pixabay](https://pixabay.com/sound-effects/search/keyboard/))
+- **Power Button Sound Effect:** Created by MGRomy (source: [Zedge](https://www.zedge.net/ringtone/9eabc9a2-e90f-3377-8ed0-13f160a12076))
+- **Power Button Image:** Designed by renata (source: [Pixabay](https://pixabay.com/sound-effects/search/keyboard/))
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
