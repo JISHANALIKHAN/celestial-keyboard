@@ -48,13 +48,6 @@ function onPressed(action) {
     }
 }
 
-// Update the background color of the textarea based on display visibility
-if (displayVisible) {
-    displayTextarea.style.backgroundColor = 'rgb(128, 128, 128)';
-} else {
-    displayTextarea.style.backgroundColor = 'hsl(0, 0%, 20%);';
-}
-
 function playAudio(audio, startTime, endTime) {
     // Set the start time
     audio.currentTime = startTime;
