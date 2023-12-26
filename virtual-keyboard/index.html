@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <title>CelestialKeys - Unlock Your Creativity with the Virtual Keyboard</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <audio id="keyboard-sound-effect">
+            <source src="assets/keyboard-sound-effect.mp3" type="audio/mp3">
+            Your browser does not support the audio.
+        </audio>
+        <audio id="power-button-sound-effect">
+            <source src="assets/power-button-sound-effect.mp3" type="audio/mp3">
+            Your browser does not support the audio
+        </audio>
+        <textarea id="display" readonly></textarea>
+        <div class="keys">
+            <button class="key flex" onclick="appendToDisplay('Q')">Q</button>
+            <button class="key flex" onclick="appendToDisplay('W')">W</button>
+            <button class="key flex" onclick="appendToDisplay('E')">E</button>
+            <button class="key flex" onclick="appendToDisplay('R')">R</button>
+            <button class="key flex" onclick="appendToDisplay('T')">T</button>
+            <button class="key flex" onclick="appendToDisplay('Y')">Y</button>
+            <button class="key flex" onclick="appendToDisplay('U')">U</button>
+            <button class="key flex" onclick="appendToDisplay('I')">I</button>
+            <button class="key flex" onclick="appendToDisplay('O')">O</button>
+            <button class="key flex" onclick="appendToDisplay('P')">P</button>
+            <button class="key flex" onclick="appendToDisplay('A')">A</button>
+            <button class="key flex" onclick="appendToDisplay('S')">S</button>
+            <button class="key flex" onclick="appendToDisplay('D')">D</button>
+            <button class="key flex" onclick="appendToDisplay('F')">F</button>
+            <button class="key flex" onclick="appendToDisplay('G')">G</button>
+            <button class="key flex" onclick="appendToDisplay('H')">H</button>
+            <button class="key flex" onclick="appendToDisplay('J')">J</button>
+            <button class="key flex" onclick="appendToDisplay('K')">K</button>
+            <button class="key flex" onclick="appendToDisplay('L')">L</button>
+            <button class="key flex" onclick="appendToDisplay('Z')">Z</button>
+            <button class="key flex" onclick="appendToDisplay('X')">X</button>
+            <button class="key flex" onclick="appendToDisplay('C')">C</button>
+            <button class="key flex" onclick="appendToDisplay('V')">V</button>
+            <button class="key flex" onclick="appendToDisplay('B')">B</button>
+            <button class="key flex" onclick="appendToDisplay('N')">N</button>
+            <button class="key flex" onclick="appendToDisplay('M')">M</button>
+        </div>
+        <div class="keys">
+            <button class="key flex" onclick="appendToDisplay('!')">!</button>
+            <button class="key flex" onclick="appendToDisplay('@')">@</button>
+            <button class="key flex" onclick="appendToDisplay('#')">#</button>
+            <button class="key flex" onclick="appendToDisplay('$')">$</button>
+            <button class="key flex" onclick="appendToDisplay('%')">%</button>
+            <button class="key flex" onclick="appendToDisplay('^')">^</button>
+            <button class="key flex" onclick="appendToDisplay('&')">&</button>
+            <button class="key flex" onclick="appendToDisplay('*')">*</button>
+            <button class="key flex" onclick="appendBracket('left','parenthesis')">(</button>
+            <button class="key flex" onclick="appendBracket('right','parenthesis')">)</button>
+            <button class="key flex" onclick="appendToDisplay('+')">+</button>
+            <button class="key flex" onclick="appendToDisplay('-')">-</button>
+            <button class="key flex" onclick="appendToDisplay('/')">/</button>
+            <button class="key flex" onclick="appendToDisplay('*')">*</button>
+            <button class="key flex" onclick="appendBracket('left','curly')">{</button>
+            <button class="key flex" onclick="appendBracket('right','curly')">}</button>
+            <button class="key flex" onclick="appendBracket('left','square')">[</button>
+            <button class="key flex" onclick="appendBracket('right','square')">]</button>
+            <button class="key flex" onclick="appendToDisplay('`')">`</button>
+            <button class="key flex" onclick="appendToDisplay('~')">~</button>
+            <button class="key flex" onclick="appendToDisplay('_')">_</button>
+            <button class="key flex" onclick="appendToDisplay('=')">=</button>
+            <button class="key flex" onclick="appendToDisplay(':')">:</button>
+            <button class="key flex" onclick="appendToDisplay(';')">;</button>
+            <button class="key flex" onclick="appendQuotes('double')">"</button>
+            <button class="key flex" onclick="appendQuotes('single')">'</button>
+        </div>
+        <div class="keys">
+            <button class="key flex" onclick="appendToDisplay('1')">1</button>
+            <button class="key flex" onclick="appendToDisplay('2')">2</button>
+            <button class="key flex" onclick="appendToDisplay('3')">3</button>
+            <button class="key flex" onclick="appendToDisplay('4')">4</button>
+            <button class="key flex" onclick="appendToDisplay('5')">5</button>
+            <button class="flex" id="power-button" onclick="toggleDisplay()">
+                <div class="power-background-image"></div>
+            </button>
+            <button class="special-buttons flex" id="spacebar" onclick="onPressed('space')">Space</button>
+            <button class="special-buttons flex" id="enter" onclick="appendToDisplay('\n')">Enter</button>
+            <button class="special-buttons flex" id="backspace" onclick="onPressed('backspace')">Backspace</button>
+            <button class="special-buttons flex" id="clear" onclick="clearDisplay()">Clear</button>
+            <button class="key flex" onclick="appendToDisplay('6')">6</button>
+            <button class="key flex" onclick="appendToDisplay('7')">7</button>
+            <button class="key flex" onclick="appendToDisplay('8')">8</button>
+            <button class="key flex" onclick="appendToDisplay('9')">9</button>
+            <button class="key flex" onclick="appendToDisplay('0')">0</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
