@@ -10,7 +10,7 @@ Explore CelestialKeys in action at [this link](https://celestialkeyboard.netlify
 - Save and restore functionality to keep track of your typed content.
 
 ## How to Use
-[Screenshot 1](Screenshot-1)  [Screenshot 2](Screenshot-2)  [Screenshot 3](Screenshot-3)  [Screenshot 4](Screenshot-4) 
+![Screenshot 1](Screenshot-1.png) | ![Screenshot 2](Screenshot-2.png) | ![Screenshot 3](Screenshot-3.png) | ![Screenshot 4](Screenshot-4.png)
 
 1. Click on the keys to input characters.
 2. Explore special keys and functionalities.
